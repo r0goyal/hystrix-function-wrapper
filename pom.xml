@@ -6,7 +6,7 @@
 
     <groupId>io.appform.core</groupId>
     <artifactId>hystrix-function-wrapper</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2-SNAPSHOT</version>
 
     <distributionManagement>
         <repository>
@@ -61,11 +61,6 @@
             <groupId>com.netflix.hystrix</groupId>
             <artifactId>hystrix-core</artifactId>
             <version>${hystrix.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.hystrix</groupId>
-            <artifactId>hystrix-configurator</artifactId>
-            <version>${hystrix.configurator.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
